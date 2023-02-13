@@ -49,8 +49,7 @@ public class UserServiceImpl implements UserService {
 
     public UserServiceImpl(HttpClient httpClient,
                            UserRepository userRepository,
-                           UserMapper userMapper,
-                           ApiTagDto tagDto) {
+                           UserMapper userMapper) {
         this.httpClient = httpClient;
         this.userRepository = userRepository;
         this.userMapper = userMapper;
